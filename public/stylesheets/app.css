@@ -1,0 +1,30 @@
+header {
+    background-color: #28f0df;
+    color: #a70c0c;
+  }
+  body {
+    font-family: 'Noto Serif', serif;
+    background-color: cornsilk;
+  }
+  main {
+    background-color: white;
+    padding: 54px;
+  }
+  .my-class-name { }
+  #my-unique-id { }
+  .finstagram-post {
+    margin-bottom: 48px;
+  }
+  .finstagram-post .user-info img {
+    border-radius: 50%;
+  }
+  a.photo:hover{
+    padding: 10px;
+    transition: padding 1.5s;
+  }
+  a.photo{
+    transition: padding 1.5s;
+  }
+  a.photo:hover{
+    padding: 30px;
+  }
