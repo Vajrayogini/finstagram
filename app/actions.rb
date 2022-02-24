@@ -51,6 +51,7 @@ end
     def current_user
       User.find_by(id: session[:user_id])
     end
+  end
 
     get '/finstagram_posts/new' do
       @finstagram_post = FinstagramPost.new
@@ -88,7 +89,6 @@ end
       # `redirect` back to wherever we came from
       redirect(back)
     end
-  end
 
   post '/likes' do
     finstagram_post_id = params[:finstagram_post_id]
@@ -104,4 +104,3 @@ end
     like.destroy
     redirect(back)
   end
-end
